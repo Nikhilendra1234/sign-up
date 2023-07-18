@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+.main{
+    width: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #fff;
+    border-radius: 7px;
+}
+.main h2{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main form{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.main input{
+    width: 400px;
+    height: 40px;
+    border: 1px solid #000;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+.main select{
+    width: 400px;
+    height: 40px;
+    border: 1px solid #000;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    font-size: 16px;
+
+}
+.main button{
+    width: 400px;
+    height: 40px;
+    background-color: #000;
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 15px;
+}
